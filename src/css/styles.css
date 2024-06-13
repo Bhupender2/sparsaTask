@@ -209,6 +209,11 @@ p {
   height: 100%;
   border-radius: 15px !important; /* Add rounded corners if desired */
 }
+.video-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px !important; /* Add rounded corners if desired */
+}
 
 .text-content h2 {
   font-size: 2em;
@@ -232,7 +237,19 @@ p {
   margin: 24px 0;
   font-weight: 800;
 }
-
+.gradient-text11 {
+  font-size: 50px;
+  font-weight: 800;
+  color:#3613FA
+}
+.text-transition {
+  display: inline-block;
+  animation: fade 3s infinite;
+}
+@keyframes fade {
+  0%, 20%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
 /* shape builder styling */
 .gradient-text-pink {
   font-size: 3.5rem !important;
@@ -255,7 +272,13 @@ p {
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
-
+.gradient-text-skyblue{
+  font-size:3.5rem !important;
+  font-weight:900;
+  background: linear-gradient(to bottom, #b9e7e8, #6acccd);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
 /* poppins-styles */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
