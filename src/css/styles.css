@@ -26,7 +26,10 @@ p {
 .navbar .megamenu {
   padding: 1rem;
 }
-
+.animation-text-highlight{
+  font-weight:900px;
+  font-size:70px !important
+}
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .has-megamenu {
@@ -238,8 +241,8 @@ p {
   font-weight: 800;
 }
 .gradient-text11 {
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 70px;
+  font-weight: 900;
   color:#3613FA
 }
 .text-transition {

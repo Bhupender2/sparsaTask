@@ -1,7 +1,7 @@
 // this is the animation scripts
 
 document.addEventListener("DOMContentLoaded", function () {
-  const words = ["developers", "graphic-designers", "coders"];
+  const words = ["developers 🥲", "graphic-designers 🍿", "coders 🧑‍💻"];
   let index = 0;
   const animatedText = document.getElementById("animated-text");
 
