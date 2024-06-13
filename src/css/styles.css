@@ -1,6 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  font-size:20px 
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 .navbar .megamenu {
@@ -31,26 +31,44 @@ body {
   }
 }
 /* ============ mobile view .end// ============ */
-.position_megamenu{
-  display:flex;
-  flex-direction:column;
+.position_megamenu {
+  display: flex;
+  flex-direction: column;
 }
 
 /* bootstrap navbar */
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
-      display: flex !important;
-      flex-basis: auto;
-      justify-content: space-evenly;
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-evenly;
   }
 }
 
-.nav-link-padding{
-  padding: 0 8px
+.nav-link {
+  font-weight: 500 !important;
+  line-height: 16px !important;
+  color: #111111 !important;
 }
 
-.nav-link-padding_logo{
-  padding:0 20px
+.nav-link-padding {
+  padding: 0 8px;
+}
+
+.nav-link-padding_logo {
+  padding: 0 20px;
+}
+
+.image_sizing{
+  height:45px !important
+}
+
+.navbar-dark, .navbar[data-bs-theme="dark"] {
+
+padding:20px 0px;
+border:1px solid black;
+box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+
 }
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -105,4 +123,3 @@ body {
   font-weight: 900;
   font-style: normal;
 }
-
