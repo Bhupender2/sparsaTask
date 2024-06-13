@@ -26,9 +26,9 @@ p {
 .navbar .megamenu {
   padding: 1rem;
 }
-.animation-text-highlight{
-  font-weight:900px;
-  font-size:70px !important
+.animation-text-highlight {
+  font-weight: 900px;
+  font-size: 70px !important;
 }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
@@ -243,15 +243,17 @@ p {
 .gradient-text11 {
   font-size: 70px;
   font-weight: 900;
-  color:#3613FA
+  color: #3613fa;
 }
 .text-transition {
   display: inline-block;
-  animation: fade 3s infinite;
+
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
 }
-@keyframes fade {
-  0%, 20%, 100% { opacity: 1; }
-  25%, 75% { opacity: 0; }
+
+.hidden {
+  opacity: 0;
 }
 /* shape builder styling */
 .gradient-text-pink {
@@ -261,26 +263,26 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gradient-text-yellow{
-  font-size:3.5rem !important;
-  font-weight:900;
+.gradient-text-yellow {
+  font-size: 3.5rem !important;
+  font-weight: 900;
   background: linear-gradient(to right, #e5c687, #d1b15c, #b78d1c);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.gradient-text-green{
-  font-size:3.5rem !important;
-  font-weight:900;
+.gradient-text-green {
+  font-size: 3.5rem !important;
+  font-weight: 900;
   background: linear-gradient(to right, #c5e478, #a3d35c);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.gradient-text-skyblue{
-  font-size:3.5rem !important;
-  font-weight:900;
+.gradient-text-skyblue {
+  font-size: 3.5rem !important;
+  font-weight: 900;
   background: linear-gradient(to bottom, #b9e7e8, #6acccd);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* poppins-styles */
 .poppins-thin {
