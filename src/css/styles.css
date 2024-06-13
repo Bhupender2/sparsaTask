@@ -332,7 +332,30 @@ p {
   padding:60px 50px 30px 50px;
   min-height:350px
 }
+.card-body1{
+  display:flex
+}
+.animated-gradient-costum {
+  font-size: 5rem;
+  font-weight: 900;
+  background: linear-gradient(270deg, #ff00ff, #0000ff, #ff00ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
 
+@keyframes gradientShift {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
 .bg-primary {
     background: linear-gradient(180deg, #007bff, #00aaff);
 }
