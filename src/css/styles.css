@@ -311,6 +311,35 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* section-4 styling */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.card-text{
+  color: #a9a5b2;
+}
+.padding-card-body{
+  padding:60px 50px 30px 50px;
+  min-height:350px
+}
+
+.bg-primary {
+    background: linear-gradient(180deg, #007bff, #00aaff);
+}
+
+.bg-secondary {
+    background: linear-gradient(180deg, #6f42c1, #a15bd7);
+}
 /* poppins-styles */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
