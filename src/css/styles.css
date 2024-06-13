@@ -102,8 +102,23 @@ h5{
 .megamenu-options-position{
   padding: 10px 0px
 }
+/* Banner section Styling */
+.banner_position{
+  padding: 40px 250px
+}
+.banner_heading{
+  font-size :92px;
+  font-weight:1000
+}
+.banner-image-sizing{
+  height:100%;
+  width:100%;
+  object-fit:contain
 
-
+}
+.backgroud_color_bg{
+  background-color:#FBF6FF
+}
 
 /* poppins-styles */
 .poppins-thin {
