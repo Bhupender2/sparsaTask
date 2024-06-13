@@ -151,7 +151,7 @@ p{
 }
 .icon {
   color: white;
-  font-size: 38px;
+  font-size: 28px;
 }
 .section-bg {
   background: linear-gradient(
@@ -159,7 +159,7 @@ p{
     rgba(255, 217, 255, 0.5),
     rgba(230, 238, 255, 0.5)
   );
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 /* poppins-styles */
