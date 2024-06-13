@@ -12,12 +12,16 @@ h5 {
   font-weight: bold;
 }
 
-h1{
-  font-weight:800;
-  font-size:50px
+h1 {
+  font-weight: 800;
+  font-size: 50px;
 }
-p{
-  font-weight:700 !important
+p {
+  font-weight: 700 !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
 }
 .navbar .megamenu {
   padding: 1rem;
@@ -94,7 +98,7 @@ p{
   border: 1px solid black;
 }
 .menu_items {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 30px;
 }
 .gradient-button {
@@ -124,6 +128,7 @@ p{
 }
 .backgroud_color_bg {
   background-color: #fbf6ff;
+  padding: 80px 0px;
 }
 /* card styling */
 .gradient-card {
@@ -133,7 +138,7 @@ p{
   padding: 20px;
   text-align: center;
   transition: all 0.3s ease;
-  min-height:350px
+  min-height: 350px;
 }
 .gradient-card:hover {
   box-shadow: 0px 12px 30px rgba(149, 157, 165, 0.3);
@@ -171,14 +176,63 @@ p{
 .subtext {
   font-size: 3.25rem;
   margin-top: 20px;
-  font-weight:900;
-  padding:0px 100px
+  font-weight: 900;
+  padding: 0px 100px;
 }
 .gradient-bg {
-  background: linear-gradient(135deg, rgba(255, 217, 255, 0.5), rgba(230, 238, 255, 0.5));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 217, 255, 0.5),
+    rgba(230, 238, 255, 0.5)
+  );
   padding: 60px 0;
   text-align: center;
 }
+
+/* video 1 styling */
+
+.real-time-editing {
+  padding: 50px;
+  background-color: #f0f0f0; /* Light background to match the screenshot */
+}
+
+.video-container {
+  padding: 20px;
+}
+
+.text-content {
+  padding: 20px;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; /* Add rounded corners if desired */
+}
+
+.text-content h2 {
+  font-size: 2em;
+  color: #333;
+  font-weight: 800;
+}
+
+.text-content p {
+  font-size: 1.4em;
+  color: #666;
+}
+
+.text-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text-content ul li {
+  font-size: 1.5em;
+  color: #a9a5b2;
+  margin: 24px 0;
+  font-weight: 800;
+}
+
 /* poppins-styles */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
