@@ -8,8 +8,16 @@ body {
   font-family: "Poppins", sans-serif !important;
   font-size: 20px;
 }
-h5{
-  font-weight:bold
+h5 {
+  font-weight: bold;
+}
+
+h1{
+  font-weight:800;
+  font-size:50px
+}
+p{
+  font-weight:700 !important
 }
 .navbar .megamenu {
   padding: 1rem;
@@ -61,7 +69,7 @@ h5{
 .nav-link_gradient {
   font-weight: 700 !important;
   line-height: 16px !important;
-  color:white !important;
+  color: white !important;
 }
 
 .nav-link-padding {
@@ -97,27 +105,61 @@ h5{
   background: linear-gradient(90deg, #ff61e6, #4d4dff);
   box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
   transition: all 0.3s ease;
-  border:none !important
+  border: none !important;
 }
-.megamenu-options-position{
-  padding: 10px 0px
+.megamenu-options-position {
+  padding: 10px 0px;
 }
 /* Banner section Styling */
-.banner_position{
-  padding: 40px 250px
+.banner_position {
+  padding: 40px 250px;
 }
-.banner_heading{
-  font-size :92px;
-  font-weight:1000
+.banner_heading {
+  font-size: 92px;
+  font-weight: 1000;
 }
-.banner-image-sizing{
-  height:100%;
-  width:100%;
-  object-fit:contain
-
+.banner-image-sizing {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.backgroud_color_bg{
-  background-color:#FBF6FF
+.backgroud_color_bg {
+  background-color: #fbf6ff;
+}
+/* card styling */
+.gradient-card {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  min-height:350px
+}
+.gradient-card:hover {
+  box-shadow: 0px 12px 30px rgba(149, 157, 165, 0.3);
+}
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(90deg, #ff61e6, #4d4dff);
+  border-radius: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+}
+.icon {
+  color: white;
+  font-size: 38px;
+}
+.section-bg {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 217, 255, 0.5),
+    rgba(230, 238, 255, 0.5)
+  );
+  padding: 60px 0;
 }
 
 /* poppins-styles */
