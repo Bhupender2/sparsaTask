@@ -241,6 +241,20 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-text-yellow{
+  font-size:3.5rem !important;
+  font-weight:900;
+  background: linear-gradient(to right, #e5c687, #d1b15c, #b78d1c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.gradient-text-green{
+  font-size:3.5rem !important;
+  font-weight:900;
+  background: linear-gradient(to right, #c5e478, #a3d35c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
 
 /* poppins-styles */
 .poppins-thin {
