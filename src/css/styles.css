@@ -255,6 +255,33 @@ p {
 .hidden {
   opacity: 0;
 }
+
+/* blog and magazine builder */
+.magazine-builder-bg{
+  background-color: #13066e;
+  border-radius:35px
+}
+.left-section {
+  background: linear-gradient(to bottom, #03000b, #13066e);
+  color: white;
+  padding: 80px 40px;
+  border-radius: 35px;
+}
+.left-section h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.right-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 0 10px 10px 0;
+  padding-top:40px
+}
+.left-section p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #a9a5b2;
+}
 /* shape builder styling */
 .gradient-text-pink {
   font-size: 3.5rem !important;
