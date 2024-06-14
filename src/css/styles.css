@@ -288,12 +288,12 @@ p {
   font-weight: 900px;
   font-size: 70px !important;
 }
-@media (max-width:600px){
+@media (max-width: 600px) {
   .animation-text-highlight {
     font-size: 40px !important;
   }
   .gradient-text11 {
-  font-size: 40px !important
+    font-size: 40px !important;
   }
 }
 .hidden {
@@ -360,7 +360,7 @@ p {
   .gradient-text {
     font-size: 2.5rem !important;
   }
-  
+
   .subtext {
     font-size: 1rem;
   }
@@ -370,7 +370,7 @@ p {
   .gradient-text {
     font-size: 3.5rem;
   }
-  
+
   .subtext {
     font-size: 3.25rem;
   }
@@ -407,12 +407,12 @@ p {
   -webkit-text-fill-color: transparent;
   animation: gradientShift 5s ease infinite;
 }
-@media (max-width:600px){
+@media (max-width: 600px) {
   .animated-gradient-costum {
-    font-size:2.5rem !important
+    font-size: 2.5rem !important;
   }
-  p{
-    font-size:1rem !important
+  p {
+    font-size: 1rem !important;
   }
 }
 
@@ -478,6 +478,52 @@ h5.fw-bold {
 .hamburger-icon {
   font-size: 2em;
   color: #000;
+}
+/* good looking website */
+.gradient-bg-blue-sky {
+  background: linear-gradient(45deg, #4b6cb7, #182848);
+  color: white;
+  padding: 180px 0;
+}
+.button-container {
+  overflow: hidden; /* Prevents scrollbars from appearing */
+  width: 100%; /* Full width of the container */
+  padding: 20px 0;
+  position: relative;
+}
+@keyframes scroll-left {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.scrolling-buttons {
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+  display: flex;
+  width: 50%; /* Make sure it's wide enough to scroll content */
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scrolling-buttons .btn {
+  margin: 0 10px;
+  border-radius: 20px !important;
+  background-color:#4355AC;
+  border:none !important;
+  font-size:1.2rem
+}
+.gradient-button_new {
+  display: inline-block;
+  font-weight: bold !important;
+  color: white !important;
+  background: linear-gradient(90deg, #ff61e6, #4d4dff);
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  transition: all 0.3s ease;
+  border: none !important;
+  padding: 15px 13px;
 }
 
 /* footer styling */
