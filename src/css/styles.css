@@ -25,10 +25,6 @@ p {
 .navbar .megamenu {
   padding: 1rem;
 }
-.animation-text-highlight {
-  font-weight: 900px;
-  font-size: 70px !important;
-}
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .has-megamenu {
@@ -288,7 +284,18 @@ p {
   transition: opacity 1s ease-in-out;
   opacity: 1;
 }
-
+.animation-text-highlight {
+  font-weight: 900px;
+  font-size: 70px !important;
+}
+@media (max-width:600px){
+  .animation-text-highlight {
+    font-size: 40px !important;
+  }
+  .gradient-text11 {
+  font-size: 40px !important
+  }
+}
 .hidden {
   opacity: 0;
 }
@@ -348,7 +355,26 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .gradient-text {
+    font-size: 2.5rem !important;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+  }
+}
 
+@media (min-width: 769px) {
+  .gradient-text {
+    font-size: 3.5rem;
+  }
+  
+  .subtext {
+    font-size: 3.25rem;
+  }
+}
 /* section-4 styling */
 
 .card {
