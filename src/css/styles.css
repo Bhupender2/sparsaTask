@@ -256,9 +256,9 @@ p {
 }
 
 /* blog and magazine builder */
-.magazine-builder-bg{
+.magazine-builder-bg {
   background-color: #13066e;
-  border-radius:35px
+  border-radius: 35px;
 }
 .left-section {
   background: linear-gradient(to bottom, #03000b, #13066e);
@@ -274,7 +274,7 @@ p {
   width: 100%;
   height: auto;
   border-radius: 0 10px 10px 0;
-  padding-top:40px
+  padding-top: 40px;
 }
 .left-section p {
   font-size: 1.2em;
@@ -314,25 +314,25 @@ p {
 /* section-4 styling */
 
 .card {
-    border: none;
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-title {
-    font-size: 2.5rem;
-    font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
-.card-text{
+.card-text {
   color: #a9a5b2;
 }
-.padding-card-body{
-  padding:60px 50px 30px 50px;
-  min-height:350px
+.padding-card-body {
+  padding: 60px 50px 30px 50px;
+  min-height: 350px;
 }
-.card-body1{
-  display:flex
+.card-body1 {
+  display: flex;
 }
 .animated-gradient-costum {
   font-size: 5rem;
@@ -346,13 +346,13 @@ p {
 
 @keyframes gradientShift {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 .feature-icon {
@@ -362,15 +362,15 @@ p {
 h5.fw-bold {
   margin-top: 15px;
 }
-.features-size{
-  font-weight:100px !important
+.features-size {
+  font-weight: 100px !important;
 }
 .bg-primary {
-    background: linear-gradient(180deg, #007bff, #00aaff);
+  background: linear-gradient(180deg, #007bff, #00aaff);
 }
 
 .bg-secondary {
-    background: linear-gradient(180deg, #6f42c1, #a15bd7);
+  background: linear-gradient(180deg, #6f42c1, #a15bd7);
 }
 
 /* just amazing carousel */
@@ -390,15 +390,15 @@ h5.fw-bold {
   background: none;
 }
 .carousel-control-prev-icon::before {
-  content: '\f053'; /* Font Awesome chevron-left icon */
-  font-family: 'Font Awesome 5 Free';
+  content: "\f053"; /* Font Awesome chevron-left icon */
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
   color: #000;
 }
 .carousel-control-next-icon::before {
-  content: '\f054'; /* Font Awesome chevron-right icon */
-  font-family: 'Font Awesome 5 Free';
+  content: "\f054"; /* Font Awesome chevron-right icon */
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
   color: #000;
@@ -415,19 +415,22 @@ h5.fw-bold {
   padding: 40px 0;
 }
 .footer a {
-  color: #fff;
+  color: #a9a5b2;
   text-decoration: none;
 }
 .footer a:hover {
   text-decoration: underline;
 }
 .footer .social-icons a {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-right: 15px;
   color: #fff;
 }
 .footer .social-icons a:hover {
   color: #007bff;
+}
+.list-unstyled li {
+  margin-top: 10px !important;
 }
 /* poppins-styles */
 .poppins-thin {
