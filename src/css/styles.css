@@ -97,7 +97,7 @@ p {
   box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
 }
 .navbar-toggler {
-  border: 1px solid black;
+  border: none;
 }
 .menu_items {
   border: 1px solid black;
@@ -371,6 +371,41 @@ h5.fw-bold {
 
 .bg-secondary {
     background: linear-gradient(180deg, #6f42c1, #a15bd7);
+}
+
+/* just amazing carousel */
+.carousel-item {
+  text-align: center;
+  padding: 60px 0;
+}
+.carousel-item h2 {
+  font-size: 3em;
+  color: #007bff;
+}
+.carousel-item p {
+  font-size: 1.2em;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background: none;
+}
+.carousel-control-prev-icon::before {
+  content: '\f053'; /* Font Awesome chevron-left icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 2em;
+  color: #000;
+}
+.carousel-control-next-icon::before {
+  content: '\f054'; /* Font Awesome chevron-right icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 2em;
+  color: #000;
+}
+.hamburger-icon {
+  font-size: 2em;
+  color: #000;
 }
 /* poppins-styles */
 .poppins-thin {
