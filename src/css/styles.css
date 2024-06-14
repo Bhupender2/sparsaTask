@@ -19,7 +19,6 @@ h1 {
 p {
   font-weight: 700 !important;
 }
-
 .mb-60 {
   margin-bottom: 60px !important;
 }
@@ -355,6 +354,16 @@ p {
   100% {
       background-position: 0% 50%;
   }
+}
+.feature-icon {
+  font-size: 30px;
+}
+
+h5.fw-bold {
+  margin-top: 15px;
+}
+.features-size{
+  font-weight:100px !important
 }
 .bg-primary {
     background: linear-gradient(180deg, #007bff, #00aaff);
