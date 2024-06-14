@@ -116,22 +116,60 @@ p {
   padding: 10px 0px;
 }
 /* Banner section Styling */
-.banner_position {
-  padding: 40px 250px;
+.background_color_bg {
+  background-color: #fbf6ff;
+  padding: 80px 0;
 }
+
+.banner_position {
+  padding: 40px 15px;
+}
+
 .banner_heading {
   font-size: 92px;
   font-weight: 1000;
 }
+
 .banner-image-sizing {
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
+  max-width: 100%;
 }
-.backgroud_color_bg {
-  background-color: #fbf6ff;
-  padding: 80px 0px;
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .banner_heading {
+    font-size: 72px;
+  }
 }
+
+@media (max-width: 992px) {
+  .banner_heading {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner_heading {
+    font-size: 52px;
+  }
+
+  .background_color_bg {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner_heading {
+    font-size: 42px;
+  }
+
+  .background_color_bg {
+    padding: 40px 0;
+  }
+}
+
 /* card styling */
 .gradient-card {
   background: rgba(255, 255, 255, 0.8);
