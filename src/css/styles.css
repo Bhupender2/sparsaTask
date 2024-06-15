@@ -85,7 +85,7 @@ p {
 }
 
 .image_sizing {
-  height: 45px !important;
+  min-height: 30px !important;
 }
 
 .navbar-dark,
