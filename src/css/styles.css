@@ -55,12 +55,22 @@ p {
 }
 
 /* bootstrap navbar */
-@media (min-width: 992px) {
+@media (min-width: 1237px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
     justify-content: space-evenly;
   }
+}
+@media (max-width: 1237px) {
+  .navbar-expand-lg .navbar-collapse {
+     
+    justify-content:start;
+  }
+  .nav-link-padding {
+    padding: 5px 1px !important;
+    margin: 0px 0px !important;
+}
 }
 
 .nav-link {
